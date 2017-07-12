@@ -1,0 +1,102 @@
+html {
+  background: url(../Assets/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.profile-block {
+    height:1200px;
+    width:800px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.profile-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.line-break {
+    width: 700px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+
+.objective {
+    font-weight: 200px;
+    letter-spacing: 1;
+    font-style: italic;
+}
+
+.experience {
+    font-size: 26px;
+}
+
+.dur-loc {
+    font-size: 16px;
+    line-height: 90%;
+}
+
+.education {
+    font-weight: 100;
+    font-size: 26px;
+    letter-spacing: 1;
+}
+
+.skills {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.social-buttons {
+    font-size: 26px;
+    padding-left: 0px;
+}
+
+.social-buttons a {
+    color: white
+}
+
+table {
+    border:none;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 26px;
+    width: 25%;
+    padding-bottom: 15px;
+}
+
+table td {
+    height: 20px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+h1 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+h4 {
+    font-weight: 500;
+    line-height: 90%;
+}
